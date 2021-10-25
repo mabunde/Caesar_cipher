@@ -9,5 +9,9 @@ public class App {
         System.out.println("Enter key >>");
         int key =in.nextInt();
 
+
+        String cText =encoding(plain,key);
+        System.out.println("The cipher text is >>" + cText);
+
     }
 }
