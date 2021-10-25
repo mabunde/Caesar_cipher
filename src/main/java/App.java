@@ -5,5 +5,9 @@ public class App {
         Scanner in =new Scanner(System.in);
         System.out.println("Enter plain text >>");
         String plain =in.nextLine();
+
+        System.out.println("Enter key >>");
+        int key =in.nextInt();
+
     }
 }
