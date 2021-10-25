@@ -33,7 +33,20 @@ public class Cipher {
        }
         return cipherText;
     }
-    public static String decoding(String ciphertext, int key){
+    public static String decoding(String cipherText, int key){
+
+        cipherText=cipherText.toLowerCase();//turn cipherText to lowercase
+        String plainText ="";
+        for (int i =0;i<cipherText.length();i++){
+            int charIndex =alphabet.indexOf(cipherText.charAt(i));
+            int newIndex =(charIndex-key);
+            if(newIndex<0){
+                newIndex =alphabet.length() +newIndex;// taking care of negative values
+            }
+
+        }
+        return plainText;
+
 
     }
 
