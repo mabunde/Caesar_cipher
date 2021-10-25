@@ -43,6 +43,8 @@ public class Cipher {
             if(newIndex<0){
                 newIndex =alphabet.length() +newIndex;// taking care of negative values
             }
+            char plainChar = alphabet.charAt(newIndex);
+            plainText = plainText + plainChar;
 
         }
         return plainText;
