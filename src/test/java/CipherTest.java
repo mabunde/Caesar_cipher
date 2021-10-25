@@ -8,4 +8,10 @@ public class CipherTest {
         assertEquals(true, value.isString());
     }
 
+    @Test
+    public void checkInput_checkIfKeyIsInRange() {
+        Cipher value = new Cipher(25);
+        assertEquals(true, value.isInRange());
+    }
+
 }

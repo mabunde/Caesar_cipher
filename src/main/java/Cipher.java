@@ -6,6 +6,9 @@ public class Cipher {
         this.text =text;
 
     }
+    public Cipher(int key) {
+        this.key =key;
+    }
 
     public boolean isString(){
         for (int i = 0; i < this.text.length(); i++){
@@ -14,5 +17,9 @@ public class Cipher {
             }
         }
         return true;
+    }
+
+    public boolean isInRange(){
+        return this.key >= 1 && this.key <= 25;
     }
 }
