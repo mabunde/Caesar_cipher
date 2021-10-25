@@ -33,7 +33,7 @@ public class Cipher {
        }
         return cipherText;
     }
-    public static String decoding(){
+    public static String decoding(String ciphertext, int key){
 
     }
 
