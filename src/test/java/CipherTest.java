@@ -14,4 +14,5 @@ public class CipherTest {
         assertEquals(true, value.isInRange());
     }
 
+
 }

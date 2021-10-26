@@ -2,16 +2,14 @@ public class Cipher {
     private int key;
     private String text;
     static String alphabet ="abcdefghijklmnopqrstuvwxyz";
-    private String plainText;
-
 
     public Cipher(String text) {
         this.text =text;
-
     }
     public Cipher(int key) {
-        this.key =key;
+        this.key=key;
     }
+
 
     public boolean isString(){
         for (int i = 0; i < this.text.length(); i++){

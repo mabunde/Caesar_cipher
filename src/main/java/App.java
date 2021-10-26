@@ -16,7 +16,7 @@ public class App {
             int pKey =in.nextInt();
             //call encoding method
             String cText =Cipher.encoding(plain,pKey);
-            System.out.println("The cipher text is >>" + cText);
+            System.out.println("The cipher text is >> " + cText);
         }else if(navigationChoice.equals("decoding")){
             // decoding the cipher
             System.out.println("Enter the cipher text >> ");
@@ -24,7 +24,7 @@ public class App {
             System.out.println("Enter key >> ");
             int cKey =in.nextInt();
             String pText =Cipher.decoding(cipher,cKey);
-            System.out.println("The cipher text is >>" + pText);
+            System.out.println("The cipher text is >> " + pText);
         } else if(navigationChoice.equals("Exit")){
             System.out.println("Goodbye!");
             programRunning = false;
