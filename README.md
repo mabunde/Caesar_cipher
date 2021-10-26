@@ -14,6 +14,8 @@ There are no known bugs at the moment.
 
 ## Technologies Used
 * Java
+## known bugs
+Had a problem coming up with the tests 
 
 ## Support and contact details
 For support contact 
