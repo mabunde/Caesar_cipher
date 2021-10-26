@@ -2,6 +2,8 @@ public class Cipher {
     private int key;
     private String text;
     static String alphabet ="abcdefghijklmnopqrstuvwxyz";
+    private String plainText;
+
 
     public Cipher(String text) {
         this.text =text;
@@ -10,6 +12,7 @@ public class Cipher {
     public Cipher(int key) {
         this.key =key;
     }
+
     public boolean isString(){
         for (int i = 0; i < this.text.length(); i++){
             if (this.text.charAt(i) >= '0' && this.text.charAt(i) <= '9'){
