@@ -20,6 +20,14 @@ public class Cipher {
         return true;
     }
 
+    public int getKey() {
+        return key;
+    }
+
+    public String getText() {
+        return text;
+    }
+
     public boolean isInRange(){
         return this.key >= 1 && this.key <= 25;
     }
