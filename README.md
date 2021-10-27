@@ -27,9 +27,6 @@ Caesar cipher program is a type of substitution in which each letter is shifted 
 ### 5.Displays the plain text
 * INPUT: "dawn" ,3
 * OUTPUT: "axtk"
-## Known Bugs
-There are no known bugs at the moment.
-
 ## Technologies Used
 * Java
 ## known bugs
