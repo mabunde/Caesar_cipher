@@ -9,6 +9,24 @@ Caesar cipher program is a type of substitution in which each letter is shifted 
 * cd to Caesar-Cipher/ 
 * open with intellij IDEA or your preferred editor
 * Use: javac.App && java App to compile and run the application
+
+## Behaviour Driven Development
+### 1. Prompt the user to select the choices
+* INPUT: "encoding"
+* INPUT: "decoding"
+* INPUT: "Exit"
+### 2.Displays an Error Message if option selected is wrong
+* INPUT: "convert"
+* OUTPUT: "Displays Error Message"
+### 3.Displays an Error Message if option selected is not case sensitive
+* INPUT: "Encoding"
+* OUTPUT: "Displays Error Message"
+### 4.Displays the cipher text
+* INPUT: "risky" , 2
+* OUTPUT: "tkuma"
+### 5.Displays the plain text
+* INPUT: "dawn" ,3
+* OUTPUT: "axtk"
 ## Known Bugs
 There are no known bugs at the moment.
 
