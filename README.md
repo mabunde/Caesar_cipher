@@ -11,7 +11,7 @@ Caesar cipher program is a type of substitution in which each letter is shifted 
 * Use: javac.App && java App to compile and run the application
 
 ## Behaviour Driven Development
-### 1. Prompt the user to select the choices
+### 1. Prompt the user to select the options
 * INPUT: "encoding"
 * INPUT: "decoding"
 * INPUT: "Exit"
